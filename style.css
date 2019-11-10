@@ -1,0 +1,547 @@
+/**General*/
+
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+
+img{
+    width:100%;
+    height:auto;
+}
+
+.parent{
+    width: 95%;
+}
+
+section,.nav{
+    opacity:0;
+}
+
+/**HEAD*/
+
+html, body{
+    background-image:url(fond01.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100%;
+    width:100%;
+    background-attachment: fixed;
+    scroll-behavior: smooth;
+}
+
+
+
+.jumbo{
+    
+    width: 105%;
+    height:11vw;
+    opacity: 0.4;
+    background:black;
+    right:0.1vw;
+    top: 0.9vw;
+    position:absolute;
+    
+}
+
+
+.logos img, .home{
+    width: 1.6vw;
+    height: 1.6vw;
+   
+    
+}
+
+.home{
+    float: left;
+
+    
+}
+
+
+
+.logos{
+    top: 10%;
+    left:85%;
+    position:absolute;
+    background:rgba(255, 255, 255, 0.562);
+    border-radius: 5% 5% 40%;
+    text-align:center;
+    width: 10vw;
+}
+
+
+
+
+
+h1{
+    color:black;
+    opacity:0.1;
+    font-family: 'Turret Road', cursive;
+    text-align:center;
+    font-size: 0vh;
+    letter-spacing: -620vh;
+    text-shadow:4px -1px 50px rgb(243, 4, 4);
+    background:  rgba(255, 4, 4, 0.384);
+    border-radius: 10% 90%;
+    transform: rotateY(900000000deg);
+    transform: rotateX(360000000deg);
+    
+
+
+}
+
+
+
+.nav{
+    position:fixed;
+    top: 0%;
+    left: 0;
+    width: 100%;
+    background:rgb(15, 15, 15);
+    z-index: 1000;
+    font-size: 1.2vw;
+    font-family: 'Turret Road', cursive;
+
+    
+}
+
+.nav a{
+    color: grey;
+    
+
+}
+
+
+.nav1:hover{
+    color:white;
+    text-shadow:7px -1px 6px rgb(243, 4, 171);
+}
+.nav2:hover{
+    color:white;
+    text-shadow:7px -1px 6px rgb(1, 245, 253);
+}
+.nav3:hover{
+    color:white;
+    text-shadow:7px -1px 6px rgb(243, 207, 4);
+}
+.nav4:hover{
+    color:white;
+    text-shadow:7px -1px 6px rgb(243, 4, 4);
+}
+
+/*****sections model*****/
+
+.vid img, .vid2 img{
+    border: 1px solid white;
+    border-radius: 75px;
+    
+    max-width:100%;
+    height: auto;
+    
+}
+
+.clear{
+    height: 105vw;
+}
+
+.vid{
+    background: rgba(0, 0, 0, 0.253);
+    border-radius: 5%;
+    width: 100%;
+    height: 41vw;
+    margin-top: 20vw;
+    margin-left: 0.1vh;
+}
+
+
+
+.vid2{
+    border-radius: 5%;
+    background: rgba(0, 0, 0, 0.253);
+    height: 44vw;
+
+
+}
+
+.al3{
+    margin-top: 5vw !important;
+    
+}
+
+
+.titre1{
+    font-family: 'Turret Road', cursive;
+    background:rgba(243, 4, 171, 0.116);
+    border-radius: 20% 50% 100%;
+    font-size: 2.5vw;
+
+}
+
+.text1{
+    font-family: 'Parisienne', cursive;
+    font-size: 2.8vw;
+    color:rgba(255, 255, 255, 0.767);
+}
+
+
+            /****effet cartes flip***/
+.flip-card {
+   
+    perspective: 100vh;
+  }
+  
+  /* conteneur */
+  .flip, .flip2 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 1s;
+    transform-style: preserve-3d; /*active la carte de dos*/
+  }
+  
+   /* Position des faces*/
+   .front, .back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  
+  /* flip horizontal*/
+  .back , .flip:hover {
+    transform: rotateY(180deg);
+  }
+  
+ 
+
+
+
+
+/*** section showgirl ***/
+
+#show{
+    border-radius: 5%;
+    background: rgba(0, 0, 0, 0.253);
+    height: 42vw;
+    margin-top: 15vw !important;
+
+}
+.titre2{
+    font-family: 'Turret Road', cursive;
+    background:rgba(1, 245, 253, 0.096);
+    border-radius: 20% 50% 100%;
+    font-size: 2.5vw;
+    text-align:center;
+    letter-spacing: 2px;
+
+}
+
+
+.text2{
+    font-family: 'Parisienne', cursive;
+    font-size: 2.5vw;
+    color:rgba(255, 255, 255, 0.767);
+    text-align:center;
+}
+
+.carousel-inner{
+    width: 100%;
+    border-radius: 10%;
+    border: 1px solid white;
+    margin-top: 1.3rem !important;
+}
+
+
+.test{
+    perspective: 800px;
+}
+
+.carousel{
+    transform: rotateX(12deg);
+}
+
+
+
+/*** mystical tribes***/
+
+.video1{
+    border-radius: 15% 5vh 12% ;
+    border: 1px solid white;
+    opacity: 0.7;
+    width:92vw;
+}
+
+iframe{
+    width:100%;
+     height: 31vw;
+}
+
+
+
+
+
+.titre3{
+    font-family: 'Turret Road', cursive;
+    background:rgba(243, 207, 4, 0.164);
+    border-radius: 20% 50% 100%;
+    font-size: 2.1vw;
+    text-align:center;
+    letter-spacing: 2px;
+    width: 40vh;
+    float:left;
+    
+}
+
+#mystic{
+    border-radius: 5%;
+    background: rgba(0, 0, 0, 0.253);
+    margin-top: 10vw !important;
+}
+
+#mystic2{
+    border-radius: 5%;
+    background: rgba(0, 0, 0, 0.253);
+    margin-top: 3vw !important;
+}
+
+
+.mys13{
+    border-radius: 5%;
+
+  
+}
+
+.mys8{
+    border-radius: 5%;
+    border-radius: 12%;
+}
+
+
+.mysbee1{
+    border-radius: 5%;
+    border-radius: 10%;
+}
+
+.mysbee3{
+    border-radius: 5%;
+    border-radius: 10%;
+
+}
+
+.mystic3{
+    border-radius: 5%;
+    background: rgba(0, 0, 0, 0.253);
+    margin-top: 3rem !important;
+}
+
+/***Footer***/
+
+.foo{
+    height: 4vw;
+    width: 85%;
+    background:black;
+    text-align: center;
+    margin-top: 7vw;
+    bottom:0.1px;
+}
+
+.foo p{
+    color:white;
+    font-size: 1.2vw;
+}
+
+
+/**** RESPONSIVE. Changes in complement of bootstrap native responsive, for a better looking on small devices*/
+
+@media screen and (max-width: 640px) {
+
+body{
+    background-position-x: -60vh;
+}
+
+.parent{
+    margin:8%;
+    padding:0;
+    width:85%;
+}
+
+.jumbo{
+    height: 15vw;
+    padding-top:2vw;
+    padding-right: 8vw;
+    left:0;
+    width: 101vw;
+    text-align:center;
+}
+
+.nom{
+    
+    top: 9.7vw !important;
+    left:2vw;
+}
+
+    
+
+
+.nav{
+    padding-left: 0 !important;
+}
+
+
+.flipmin, .mysbeemin, .mys13{
+    display:none;
+}
+
+.vid{
+    margin-top: 30vw;
+    width: 60%;
+    height: 25vw;
+}
+
+.alt8{
+    left: 82%;
+    bottom: 49vw;
+    width: 80%;
+}
+
+.flipvisible{
+    width: 60%;
+    margin:0!important;
+    padding:0!important;
+}
+
+.flipcard{
+    width: 30vw;
+    bottom: 10vw;
+    margin-left: 30vw;
+}
+
+.show9xs{
+    width: 40%;
+    height: 30%;
+    bottom: 0vh;
+    left:0vh;
+}
+
+.flipxs{
+    width:50%;
+    height: 30vw;
+    top: 5vh;
+    left:2vh;
+    padding:0!important;
+}
+
+.show9xs{
+    width: 41vw;
+    margin-top: 5vw;
+}
+
+.back9xs{
+    bottom: 12vh;
+
+}
+
+.vid2{
+    height: 84vw;
+    border-radius: 5% 5% 40% 15%;
+}
+
+.classxs{
+    width: 90%;
+    margin-right: 5vw;
+    right: 2vw;
+
+}
+
+
+.frontxsp{
+    height: 62vw;
+}
+
+.classxs2{
+    width: 90%;
+    margin-right: 5vw;
+    left: 5vw;
+    padding-bottom: 5vw;
+}
+
+.al3{
+    right: 5vw;
+
+}
+
+.div1{
+    margin-top: 0!important;
+    width: 90%;
+}
+.al7, .fond02{
+    width: 90%;
+    margin:0 !important;
+}
+
+.nom{
+    margin-top: 4vw !important;
+}
+
+.text1{
+    margin-bottom:0 !important;
+}
+
+#show{
+height: 100vw;
+
+}
+
+iframe{
+    height: 80vw;
+    width: 86vw !important;
+}
+
+
+
+}
+
+@media screen and (max-width: 768px) {
+
+    html, body{
+        background-position-x: -50vh;
+        
+    }
+
+    .nom{
+        margin-top: 3.7vw !important;
+    }
+    
+
+    iframe{
+        width:100%;
+         height: 80vw;
+    }
+
+
+   .myst13{
+       margin-top:3vw !important;
+   }
+
+   .myst8xs{
+        margin-top: 2vw !important;
+       margin-bottom: 1vw !important;
+   }
+
+    .mysbee3{
+
+        border-radius: 30% !important;
+        margin-top: 1vw;
+    }
+
+
+    .foo{
+        width: 101% !important;
+        height: 10vw !important;
+        margin:0;
+        padding:0;
+    }
+
+}
+
